@@ -9,7 +9,7 @@ select *
 from student
 where name like '%%';
 
-select *
+ select *
 from student
 where age < student.id;
 
