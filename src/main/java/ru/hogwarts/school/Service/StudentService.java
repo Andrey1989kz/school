@@ -1,9 +1,9 @@
-package ru.hogwarts.school.service;
+package ru.hogwarts.school.Service;
 
 import org.springframework.stereotype.Service;
 import ru.hogwarts.school.model.Faculty;
 import ru.hogwarts.school.model.Student;
-import ru.hogwarts.school.repositories.StudentRepository;
+import ru.hogwarts.school.Repositories.StudentRepository;
 
 import java.util.Collection;
 
