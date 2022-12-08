@@ -23,6 +23,7 @@ public class Faculty {
         this.name = name;
         this.color = color;
     }
+
     public long getId() {
         return id;
     }
