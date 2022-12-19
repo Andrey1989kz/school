@@ -109,6 +109,14 @@ public class StudentController {
             response.setContentLength((int) avatar.getFileSize());
             is.transferTo(os);
         }
+
+
+    }
+
+    @GetMapping(value = "/all")
+    public ResponseEntity<Collection<Avatar>> getAll(@RequestParam("page") Integer pageNumber,
+                                                    @RequestParam("size") Integer pageSize) {
+        return avatarService.getAll(pageNumber, pageSize);
     }
 
 }
